@@ -1,0 +1,9 @@
+<div class="signin">
+  <h1>Sign In</h1>
+  <form ng-submit="signinCtrl.signin()">
+    <input type="text" name="username" placeholder="username..." autocomplete="off" ng-model="signinCtrl.user.username">
+    <input type="password" name="password" placeholder="password..." autocomplete="off" ng-model="signinCtrl.user.password">
+    <button type="submit">Sign In</button>
+  </form>
+  <span>Not a User yet?<a ui-sref="signup">Sign Up</a></span>
+</div>
