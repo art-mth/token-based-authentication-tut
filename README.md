@@ -1,8 +1,8 @@
-#Token-Based Authentication#
+# Token-Based Authentication
 
 This repo contains the code for one of my blogposts on Token-Based Authentication. If you have not read it you can do so [here](http://arthurmathies.com/2015/11/29/Authentication2/).
 
-##Usage##
+## Usage
 If you want to play around with the code feel free to clone the repo.
 
 In order to get the code to run you will need to set up a few things.
@@ -21,5 +21,5 @@ TOKEN_SECRET = "Your very secret token secret"
 
 You should be all set.
 
-##License##
+## License
 MIT &copy; [Arthur Mathies](https://github.com/arthurmathies)
